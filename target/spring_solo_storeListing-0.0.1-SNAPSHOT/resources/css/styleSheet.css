@@ -1,0 +1,365 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+#navigation{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+
+}
+#navigation2{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 5px 1px 7px #888888;
+}
+.navigationBarStyle{
+width:100%;
+background-color: white;
+box-shadow: 5px 1px 7px #888888;
+transition: all .3s linear;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color:#333;
+  border-bottom:3px solid #17252A;
+  overflow: hidden;
+
+}
+.active {
+  background-color: #111;
+}
+#Header{
+ height: 60%;
+ position: relative;
+}
+
+#insideHeader{
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 18%;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    height:22%;
+}
+
+#headerImg{
+  width: 100%;
+  height: 99%;
+  opacity: 0.5;
+}
+
+#headerImg2{
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  transition: opacity .3s ease-in;
+}
+#headerImg2:hover{
+  opacity: 0.5;
+}
+
+#headerH1{
+  font-size: 55px;
+  color: #FEFFFF;
+}
+
+#about{
+  background-color: #376EA4;
+  overflow: hidden;
+}
+
+#about-intro-design{
+  text-align: center;
+  width:60%;
+  font-size: 25px;
+  color:white;
+  margin:auto;
+}
+
+#store{
+  display: flex;
+  flex-direction: row;
+}
+.panel{
+  flex: 1;
+  width: 50%;
+}
+
+#store_left_panel{
+  background-color: #44C154;
+  text-align: center;
+  font-size: 30px;
+  color:white;
+}
+
+#store_wording{
+  margin:3%;
+  padding: 2%;
+}
+#store_right_panel{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#right_panel_inside{
+  position: relative;
+}
+
+.right_panel_heading{
+  position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 50%;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    height:18%;
+}
+
+
+
+/* RegisterFor */
+
+#register-me-text,#register-me-form{
+  float: left;
+  width: 50%;
+  height: 50vw;
+}
+
+#register-me-text{
+  background-color: #f7484e;
+  color:white;
+  text-align: center;
+}
+#register-article{
+  margin-top:25%;
+  font-size: 24px;
+  padding: 4%;
+}
+#register-article h1{
+  font-size:30px;
+  margin:1%;
+}
+#register-me-article{
+  font-weight: bold;
+  margin:3%;
+  width: 80%;
+  color:#444;
+  font-size:16px;
+  padding: 2%;
+}
+#register-me-article h1{
+  font-size: 28px;
+  margin:2% 0 2% 0;
+}
+label{
+  display: block;
+  padding-top: 20px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+label input{
+  background-color: transparent;
+  border:0;
+  border-bottom: 2px solid #f7484e; /*#4a4;*/
+  color:#333;
+  font-size: 30px;
+  letter-spacing: -1px;
+  outline: 0;
+  padding: 5px 20px;
+  text-align: center;
+  width: 150px;
+  transition: all .3s;
+}
+label input:focus{
+  width: 300px;
+  transition: all .3s;
+}
+label .label-text{
+  color: #444;/*#9b9*/;
+  cursor: text;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  -moz-transform: translateY(-34px);
+  -ms-transform: translateY(-34px);
+  -webkit-transform: translateY(-34px);
+  transform: translateY(-34px);
+  transition: all .3s
+}
+label input:focus + .label-text {
+
+  font-size: 13px;
+  -moz-transform: translateY(-66px);
+  -ms-transform: translateY(-66px);
+  -webkit-transform: translateY(-66px);
+  transform: translateY(-66px);
+
+}
+label input:valid + .label-text {
+  font-size: 13px;
+  -moz-transform: translateY(-64px);
+  -ms-transform: translateY(-64px);
+  -webkit-transform: translateY(-64px);
+  transform: translateY(-64px);
+
+}
+form{
+  text-align: center;
+  margin-top:3%;
+}
+.button {
+  background-color: #333333;
+  border: 2px solid white;
+  border-radius: 27px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 200ms;
+}
+.button:hover, button:focus {
+  background-color: white;
+  color: #333333;
+  font-weight: bold;
+  outline: 0;
+}
+
+.spacing{
+  height: 30px;
+}
+
+.mainHeader{
+  position: relative;
+}
+.LoginHeader{
+  background-color: #659DBD;
+  height:450px;
+  width: 100%;
+}
+.formDiv{
+  background-color: white;
+  height: 100%;
+  width:90%;
+  position: absolute;
+  margin:-25% 3% 4% 5% ;
+  display: flex;
+  flex-direction:row;
+  box-shadow: 3px 5px 7px 5px #888888;
+}
+.formDivLeftSide{
+  width:100%;
+  position: relative;
+}
+.imageOverDiv{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.formDivRightSide{
+  width: 100%;
+}
+.imageOverDiv{
+  color: #444;
+  text-align: center;
+  background-color: rgba(220, 227, 206, 0.6);
+}
+
+.imageOverDiv h1 {
+  margin-top: 30%;
+}
+.imageDiv{
+  height: 100%;
+  width: 100%;
+}
+#logInId{
+  width: 100%;
+  height: 100%;
+}
+
+.sfuMainDivRight div{
+  background-color: orange;
+  color:red;
+  width: 100%;
+  height: 15%;
+  margin:1%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.save{
+    display:none;
+  }
